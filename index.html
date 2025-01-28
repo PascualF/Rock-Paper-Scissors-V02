@@ -8,16 +8,20 @@
 </head>
 <body>
     <h1>Rock-Paper-Scissors</h1>
+    <button class="btn-start-game">Start Game</button>
     <div class="container">
+        <div class="score pcScore">PC: 0</div>
+        <div class="score userScore">User: 0</div>
         <div class="display-choices">
             <div class="choice-pc">
-                <img src="images/rock.png" alt="" class="display-img display-pc img-rotate-right">
+                <img src="images/rock.png" alt="pc-img" class="display-img display-pc img-rotate-right">
             </div>
             <div class="choice-player">
-                <img src="images/rock.png" alt="" class="display-img display-user img-rotate-left">
+                <img src="images/rock.png" alt="user-img" class="display-img display-user img-rotate-left">
             </div>
         </div>
         <div class="sentence">Let's Play</div>
+        <div class="rounds"></div>
         <div class="div-choice">
             <p><img src="images/rock.png" alt="img-rock" class="img-choice rock" value="rock">Rock</p>
             <p><img src="images/paper.png" alt="img-paper" class="img-choice paper" value="paper">Paper</p>

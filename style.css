@@ -9,23 +9,44 @@ body{
     background-color: rgb(194, 248, 248);
 }
 
-h1{
-    position: relative;
-    
-}
-
 .container {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
     width: 40vw;
-    height: 50vh;
+    height: 40vh;
     min-width: 500px;
     min-height: 500px;
     background-color: white;
     border-radius: 25px;
+    position: relative;
+}
+
+.pcScore{
+    position:absolute;
+    top: 11.5rem;
+    left: 8rem;
+}
+
+.userScore{
+    position:absolute;
+    top: 11.5rem;
+    left: 20rem;
+}
+
+.btn-start-game {
+    height: 2rem;
+    width: 7rem;
+    border-radius: 10px;
+    margin: 1rem;
+    background-color: rgb(150, 84, 212);
+}
+
+.btn-start-game:hover {
+    background-color: rgb(166, 122, 207);
+    cursor: pointer;
 }
 
 .img-choice{
@@ -42,11 +63,12 @@ p{
     display:flex;
     flex-direction: column;
     text-align: center;
-    margin:20px;
+    margin:15px;
 }
 
 .sentence{
     font-size: 2rem;
+    margin-top: 30px;
     margin-bottom: 60px;
 }
 
@@ -55,6 +77,10 @@ p{
     margin-bottom: 60px;
     justify-content: center;
     align-items: center;
+}
+
+.score{
+    font-size: 1.5rem;
 }
 
 .display-img{
@@ -86,5 +112,4 @@ p{
     justify-content: center;
     align-items: center;
     margin-left: 80px;
-
 }
